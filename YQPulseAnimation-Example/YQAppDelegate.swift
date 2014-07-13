@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  YQAppDelegate.swift
 //  YQPulseAnimation-Example
 //
 //  Created by yiqin on 7/12/14.
@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class YQAppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
 

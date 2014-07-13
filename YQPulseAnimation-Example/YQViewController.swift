@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  YQViewController.swift
 //  YQPulseAnimation-Example
 //
 //  Created by yiqin on 7/12/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class YQViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DCC8D5C197220B600243280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5B197220B600243280 /* AppDelegate.swift */; };
-		8DCC8D5E197220B600243280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5D197220B600243280 /* ViewController.swift */; };
+		8DCC8D5C197220B600243280 /* YQAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5B197220B600243280 /* YQAppDelegate.swift */; };
+		8DCC8D5E197220B600243280 /* YQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5D197220B600243280 /* YQViewController.swift */; };
 		8DCC8D61197220B600243280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5F197220B600243280 /* Main.storyboard */; };
 		8DCC8D63197220B600243280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D62197220B600243280 /* Images.xcassets */; };
 		8DCC8D6F197220B600243280 /* YQPulseAnimation_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D6E197220B600243280 /* YQPulseAnimation_ExampleTests.swift */; };
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		8DCC8D56197220B600243280 /* YQPulseAnimation-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YQPulseAnimation-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCC8D5A197220B600243280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DCC8D5B197220B600243280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DCC8D5D197220B600243280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DCC8D5B197220B600243280 /* YQAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQAppDelegate.swift; sourceTree = "<group>"; };
+		8DCC8D5D197220B600243280 /* YQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQViewController.swift; sourceTree = "<group>"; };
 		8DCC8D60197220B600243280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DCC8D62197220B600243280 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8DCC8D68197220B600243280 /* YQPulseAnimation-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YQPulseAnimation-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,8 +75,8 @@
 		8DCC8D58197220B600243280 /* YQPulseAnimation-Example */ = {
 			isa = PBXGroup;
 			children = (
-				8DCC8D5B197220B600243280 /* AppDelegate.swift */,
-				8DCC8D5D197220B600243280 /* ViewController.swift */,
+				8DCC8D5B197220B600243280 /* YQAppDelegate.swift */,
+				8DCC8D5D197220B600243280 /* YQViewController.swift */,
 				8DCC8D5F197220B600243280 /* Main.storyboard */,
 				8DCC8D62197220B600243280 /* Images.xcassets */,
 				8DCC8D59197220B600243280 /* Supporting Files */,
@@ -208,8 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCC8D5E197220B600243280 /* ViewController.swift in Sources */,
-				8DCC8D5C197220B600243280 /* AppDelegate.swift in Sources */,
+				8DCC8D5E197220B600243280 /* YQViewController.swift in Sources */,
+				8DCC8D5C197220B600243280 /* YQAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
