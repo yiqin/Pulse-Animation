@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DCC8D5C197220B600243280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5B197220B600243280 /* AppDelegate.swift */; };
+		8DCC8D5E197220B600243280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5D197220B600243280 /* ViewController.swift */; };
+		8DCC8D61197220B600243280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5F197220B600243280 /* Main.storyboard */; };
+		8DCC8D63197220B600243280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D62197220B600243280 /* Images.xcassets */; };
+		8DCC8D6F197220B600243280 /* YQPulseAnimation_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D6E197220B600243280 /* YQPulseAnimation_ExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DCC8D69197220B600243280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DCC8D4E197220B600243280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DCC8D55197220B600243280;
+			remoteInfo = "YQPulseAnimation-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DCC8D56197220B600243280 /* YQPulseAnimation-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YQPulseAnimation-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCC8D5A197220B600243280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCC8D5B197220B600243280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DCC8D5D197220B600243280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DCC8D60197220B600243280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DCC8D62197220B600243280 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DCC8D68197220B600243280 /* YQPulseAnimation-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YQPulseAnimation-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCC8D6D197220B600243280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCC8D6E197220B600243280 /* YQPulseAnimation_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQPulseAnimation_ExampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DCC8D53197220B600243280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCC8D65197220B600243280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DCC8D4D197220B600243280 = {
+			isa = PBXGroup;
+			children = (
+				8DCC8D58197220B600243280 /* YQPulseAnimation-Example */,
+				8DCC8D6B197220B600243280 /* YQPulseAnimation-ExampleTests */,
+				8DCC8D57197220B600243280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DCC8D57197220B600243280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC8D56197220B600243280 /* YQPulseAnimation-Example.app */,
+				8DCC8D68197220B600243280 /* YQPulseAnimation-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DCC8D58197220B600243280 /* YQPulseAnimation-Example */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC8D5B197220B600243280 /* AppDelegate.swift */,
+				8DCC8D5D197220B600243280 /* ViewController.swift */,
+				8DCC8D5F197220B600243280 /* Main.storyboard */,
+				8DCC8D62197220B600243280 /* Images.xcassets */,
+				8DCC8D59197220B600243280 /* Supporting Files */,
+			);
+			path = "YQPulseAnimation-Example";
+			sourceTree = "<group>";
+		};
+		8DCC8D59197220B600243280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC8D5A197220B600243280 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DCC8D6B197220B600243280 /* YQPulseAnimation-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC8D6E197220B600243280 /* YQPulseAnimation_ExampleTests.swift */,
+				8DCC8D6C197220B600243280 /* Supporting Files */,
+			);
+			path = "YQPulseAnimation-ExampleTests";
+			sourceTree = "<group>";
+		};
+		8DCC8D6C197220B600243280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC8D6D197220B600243280 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DCC8D55197220B600243280 /* YQPulseAnimation-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCC8D72197220B600243280 /* Build configuration list for PBXNativeTarget "YQPulseAnimation-Example" */;
+			buildPhases = (
+				8DCC8D52197220B600243280 /* Sources */,
+				8DCC8D53197220B600243280 /* Frameworks */,
+				8DCC8D54197220B600243280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YQPulseAnimation-Example";
+			productName = "YQPulseAnimation-Example";
+			productReference = 8DCC8D56197220B600243280 /* YQPulseAnimation-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DCC8D67197220B600243280 /* YQPulseAnimation-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCC8D75197220B600243280 /* Build configuration list for PBXNativeTarget "YQPulseAnimation-ExampleTests" */;
+			buildPhases = (
+				8DCC8D64197220B600243280 /* Sources */,
+				8DCC8D65197220B600243280 /* Frameworks */,
+				8DCC8D66197220B600243280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DCC8D6A197220B600243280 /* PBXTargetDependency */,
+			);
+			name = "YQPulseAnimation-ExampleTests";
+			productName = "YQPulseAnimation-ExampleTests";
+			productReference = 8DCC8D68197220B600243280 /* YQPulseAnimation-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DCC8D4E197220B600243280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = yipick;
+				TargetAttributes = {
+					8DCC8D55197220B600243280 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8DCC8D67197220B600243280 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8DCC8D55197220B600243280;
+					};
+				};
+			};
+			buildConfigurationList = 8DCC8D51197220B600243280 /* Build configuration list for PBXProject "YQPulseAnimation-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DCC8D4D197220B600243280;
+			productRefGroup = 8DCC8D57197220B600243280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DCC8D55197220B600243280 /* YQPulseAnimation-Example */,
+				8DCC8D67197220B600243280 /* YQPulseAnimation-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DCC8D54197220B600243280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCC8D61197220B600243280 /* Main.storyboard in Resources */,
+				8DCC8D63197220B600243280 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCC8D66197220B600243280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DCC8D52197220B600243280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCC8D5E197220B600243280 /* ViewController.swift in Sources */,
+				8DCC8D5C197220B600243280 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCC8D64197220B600243280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCC8D6F197220B600243280 /* YQPulseAnimation_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DCC8D6A197220B600243280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DCC8D55197220B600243280 /* YQPulseAnimation-Example */;
+			targetProxy = 8DCC8D69197220B600243280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DCC8D5F197220B600243280 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DCC8D60197220B600243280 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DCC8D70197220B600243280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DCC8D71197220B600243280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DCC8D73197220B600243280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "YQPulseAnimation-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DCC8D74197220B600243280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "YQPulseAnimation-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DCC8D76197220B600243280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YQPulseAnimation-Example.app/YQPulseAnimation-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YQPulseAnimation-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8DCC8D77197220B600243280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YQPulseAnimation-Example.app/YQPulseAnimation-Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YQPulseAnimation-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DCC8D51197220B600243280 /* Build configuration list for PBXProject "YQPulseAnimation-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCC8D70197220B600243280 /* Debug */,
+				8DCC8D71197220B600243280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCC8D72197220B600243280 /* Build configuration list for PBXNativeTarget "YQPulseAnimation-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCC8D73197220B600243280 /* Debug */,
+				8DCC8D74197220B600243280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DCC8D75197220B600243280 /* Build configuration list for PBXNativeTarget "YQPulseAnimation-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCC8D76197220B600243280 /* Debug */,
+				8DCC8D77197220B600243280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DCC8D4E197220B600243280 /* Project object */;
+}
