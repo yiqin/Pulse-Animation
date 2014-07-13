@@ -12,6 +12,7 @@
 		8DCC8D61197220B600243280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5F197220B600243280 /* Main.storyboard */; };
 		8DCC8D63197220B600243280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D62197220B600243280 /* Images.xcassets */; };
 		8DCC8D6F197220B600243280 /* YQPulseAnimation_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D6E197220B600243280 /* YQPulseAnimation_ExampleTests.swift */; };
+		8DCC8D7A1972284C00243280 /* YQPulsingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D791972284C00243280 /* YQPulsingLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		8DCC8D68197220B600243280 /* YQPulseAnimation-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YQPulseAnimation-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCC8D6D197220B600243280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DCC8D6E197220B600243280 /* YQPulseAnimation_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQPulseAnimation_ExampleTests.swift; sourceTree = "<group>"; };
+		8DCC8D791972284C00243280 /* YQPulsingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQPulsingLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		8DCC8D4D197220B600243280 = {
 			isa = PBXGroup;
 			children = (
+				8DCC8D781972284C00243280 /* YQPulsingLayer */,
 				8DCC8D58197220B600243280 /* YQPulseAnimation-Example */,
 				8DCC8D6B197220B600243280 /* YQPulseAnimation-ExampleTests */,
 				8DCC8D57197220B600243280 /* Products */,
@@ -107,6 +110,14 @@
 				8DCC8D6D197220B600243280 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DCC8D781972284C00243280 /* YQPulsingLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC8D791972284C00243280 /* YQPulsingLayer.swift */,
+			);
+			path = YQPulsingLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCC8D7A1972284C00243280 /* YQPulsingLayer.swift in Sources */,
 				8DCC8D5E197220B600243280 /* YQViewController.swift in Sources */,
 				8DCC8D5C197220B600243280 /* YQAppDelegate.swift in Sources */,
 			);
@@ -397,6 +409,7 @@
 				8DCC8D74197220B600243280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DCC8D75197220B600243280 /* Build configuration list for PBXNativeTarget "YQPulseAnimation-ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +418,7 @@
 				8DCC8D77197220B600243280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
