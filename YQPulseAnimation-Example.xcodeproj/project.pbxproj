@@ -13,6 +13,8 @@
 		8DCC8D63197220B600243280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D62197220B600243280 /* Images.xcassets */; };
 		8DCC8D6F197220B600243280 /* YQPulseAnimation_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D6E197220B600243280 /* YQPulseAnimation_ExampleTests.swift */; };
 		8DCC8D7A1972284C00243280 /* YQPulsingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D791972284C00243280 /* YQPulsingLayer.swift */; };
+		8DCC8D83197230E000243280 /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D81197230E000243280 /* hand.png */; };
+		8DCC8D84197230E000243280 /* hand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D82197230E000243280 /* hand@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8DCC8D6D197220B600243280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DCC8D6E197220B600243280 /* YQPulseAnimation_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQPulseAnimation_ExampleTests.swift; sourceTree = "<group>"; };
 		8DCC8D791972284C00243280 /* YQPulsingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQPulsingLayer.swift; sourceTree = "<group>"; };
+		8DCC8D81197230E000243280 /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
+		8DCC8D82197230E000243280 /* hand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hand@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				8DCC8D5B197220B600243280 /* YQAppDelegate.swift */,
 				8DCC8D5D197220B600243280 /* YQViewController.swift */,
 				8DCC8D5F197220B600243280 /* Main.storyboard */,
+				8DCC8D81197230E000243280 /* hand.png */,
+				8DCC8D82197230E000243280 /* hand@2x.png */,
 				8DCC8D62197220B600243280 /* Images.xcassets */,
 				8DCC8D59197220B600243280 /* Supporting Files */,
 			);
@@ -202,6 +208,8 @@
 			files = (
 				8DCC8D61197220B600243280 /* Main.storyboard in Resources */,
 				8DCC8D63197220B600243280 /* Images.xcassets in Resources */,
+				8DCC8D83197230E000243280 /* hand.png in Resources */,
+				8DCC8D84197230E000243280 /* hand@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

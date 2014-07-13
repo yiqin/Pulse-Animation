@@ -10,13 +10,13 @@ import UIKit
 import QuartzCore
 
 class YQPulsingLayer: CALayer {
+    
     var radius: CGFloat
     var fromValueForRadius: CGFloat
     var fromValueForAlpha: CGFloat
     var keyTimeForHalfOpacity: CGFloat
     var animationDuration: NSTimeInterval
     var pulseInterval: NSTimeInterval
-    
     var animationGroup: CAAnimationGroup
     
     init() {
@@ -29,37 +29,18 @@ class YQPulsingLayer: CALayer {
         self.pulseInterval = 0
         self.animationGroup = CAAnimationGroup();
         
-        
         super.init()
-        
         
         // after super.init()
         self.repeatCount = Float.infinity;
         // self.backgroundColor = [[UIColor colorWithRed:0.000 green:0.478 blue:1.000 alpha:1] CGColor];
         self.backgroundColor =  UIColor(red: 0.0, green: 0.478, blue: 1.0, alpha: 1).CGColor;
         
-        
         var tempPos = self.position;
         var diameter = self.radius * 2;
-        
         self.bounds = CGRectMake(0, 0, diameter, diameter);
         self.cornerRadius = self.radius;
         self.position = tempPos;
-        
-        /*
-        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void) {
-            
-            [self setupAnimationGroup];
-            
-            if(self.pulseInterval != INFINITY) {
-                
-                dispatch_async(dispatch_get_main_queue(), ^(void) {
-                    
-                    [self addAnimation:self.animationGroup forKey:@"pulse"];
-                    });
-            }
-            });
-        */
         
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), {
             
@@ -67,33 +48,25 @@ class YQPulsingLayer: CALayer {
             
             if self.pulseInterval != Float.infinity {
                 dispatch_async(dispatch_get_main_queue(), {
-                    
                     self.addAnimation(self.animationGroup, forKey: "pulse")
-                    
                     })
             }
         })
-        
     }
     
-    
-    
     func setupAnimationGroup() {
-        println("hello")
-        
-        var defaultCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
-        
         self.animationGroup = CAAnimationGroup()
         self.animationGroup.duration = self.animationDuration + self.pulseInterval
         self.animationGroup.repeatCount = self.repeatCount
         self.animationGroup.removedOnCompletion = false
+        
+        var defaultCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
         self.animationGroup.timingFunction = defaultCurve
         
         var scaleAnimation = CABasicAnimation(keyPath: "transform.scale.xy")
         scaleAnimation.fromValue = self.fromValueForRadius
         scaleAnimation.toValue = 1.0;
         scaleAnimation.duration = self.animationDuration;
-        
         
         var opacityAnimation = CAKeyframeAnimation(keyPath: "opacity")
         opacityAnimation.values = [self.fromValueForAlpha, 0.45, 0]
@@ -102,27 +75,8 @@ class YQPulsingLayer: CALayer {
         opacityAnimation.removedOnCompletion = false
         
         var animations = [scaleAnimation, opacityAnimation]
-        
         self.animationGroup.animations = animations
     }
-    
-    /*
-    - (void)setRadius:(CGFloat)radius {
-    
-    _radius = radius;
-    
-    CGPoint tempPos = self.position;
-    
-    CGFloat diameter = self.radius * 2;
-    
-    self.bounds = CGRectMake(0, 0, diameter, diameter);
-    self.cornerRadius = self.radius;
-    self.position = tempPos;
-    }
-    */
-    
-    
-    
 }
 
 
