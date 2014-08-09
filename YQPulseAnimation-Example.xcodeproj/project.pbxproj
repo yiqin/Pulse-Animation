@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DB2E88A1996CAC200D8A627 /* screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2E8891996CAC200D8A627 /* screenshot_1.png */; };
 		8DCC8D5C197220B600243280 /* YQAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5B197220B600243280 /* YQAppDelegate.swift */; };
 		8DCC8D5E197220B600243280 /* YQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5D197220B600243280 /* YQViewController.swift */; };
 		8DCC8D61197220B600243280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCC8D5F197220B600243280 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DB2E8891996CAC200D8A627 /* screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_1.png; sourceTree = "<group>"; };
 		8DCC8D56197220B600243280 /* YQPulseAnimation-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YQPulseAnimation-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCC8D5A197220B600243280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DCC8D5B197220B600243280 /* YQAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQAppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				8DCC8D5B197220B600243280 /* YQAppDelegate.swift */,
 				8DCC8D5D197220B600243280 /* YQViewController.swift */,
 				8DCC8D5F197220B600243280 /* Main.storyboard */,
+				8DB2E8891996CAC200D8A627 /* screenshot_1.png */,
 				8DCC8D81197230E000243280 /* hand.png */,
 				8DCC8D82197230E000243280 /* hand@2x.png */,
 				8DCC8D62197220B600243280 /* Images.xcassets */,
@@ -209,6 +212,7 @@
 				8DCC8D61197220B600243280 /* Main.storyboard in Resources */,
 				8DCC8D63197220B600243280 /* Images.xcassets in Resources */,
 				8DCC8D83197230E000243280 /* hand.png in Resources */,
+				8DB2E88A1996CAC200D8A627 /* screenshot_1.png in Resources */,
 				8DCC8D84197230E000243280 /* hand@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
