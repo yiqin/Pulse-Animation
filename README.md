@@ -15,7 +15,7 @@ Add YQPulsingLayer.swift into your project in Xcode
 How to Use
 ======
 In your code:
-
+```Swift
         // declare a pulsing layer
         var pulsingLayer = YQPulsingLayer()
         
@@ -24,6 +24,7 @@ In your code:
         
         // add the pulsing layer to the view
         view.layer.insertSublayer(pulsingLayer, below: objectView.layer)
+```
 
 How to Contribute
 ======
