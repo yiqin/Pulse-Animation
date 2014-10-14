@@ -59,6 +59,7 @@ class YQPulsingLayer: CALayer {
         self.animationGroup.duration = self.animationDuration + self.pulseInterval
         self.animationGroup.repeatCount = self.repeatCount
         self.animationGroup.removedOnCompletion = false
+        self.animationGroup.delegate = self
         
         var defaultCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
         self.animationGroup.timingFunction = defaultCurve
@@ -76,6 +77,10 @@ class YQPulsingLayer: CALayer {
         
         var animations = [scaleAnimation, opacityAnimation]
         self.animationGroup.animations = animations
+    }
+    
+    override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
+        self.removeFromSuperlayer()
     }
 }
 
