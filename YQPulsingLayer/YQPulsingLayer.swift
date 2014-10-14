@@ -1,9 +1,9 @@
 //
 //  YQPulsingLayer.swift
-//  PulsingHaloDemo
+//  YQPulseAnimation
 //
 //  Created by yiqin on 7/12/14.
-//  Copyright (c) 2014 Shuichi Tsutsumi. All rights reserved.
+//  Copyright (c) 2014 yipick. All rights reserved.
 //
 
 import UIKit
@@ -32,8 +32,9 @@ class YQPulsingLayer: CALayer {
         super.init()
         
         // after super.init()
-        self.repeatCount = Float.infinity;
-        // self.backgroundColor = [[UIColor colorWithRed:0.000 green:0.478 blue:1.000 alpha:1] CGColor];
+        // self.repeatCount = Float.infinity;
+        self.repeatCount = 5;
+
         self.backgroundColor =  UIColor(red: 0.0, green: 0.478, blue: 1.0, alpha: 1).CGColor;
         
         var tempPos = self.position;
@@ -59,6 +60,7 @@ class YQPulsingLayer: CALayer {
         self.animationGroup.duration = self.animationDuration + self.pulseInterval
         self.animationGroup.repeatCount = self.repeatCount
         self.animationGroup.removedOnCompletion = false
+        self.animationGroup.fillMode = kCAFillModeForwards;
         self.animationGroup.delegate = self
         
         var defaultCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
