@@ -32,8 +32,7 @@ class YQPulsingLayer: CALayer {
         super.init()
         
         // after super.init()
-        // self.repeatCount = Float.infinity;
-        self.repeatCount = 5;
+        self.repeatCount = Float.infinity;
 
         self.backgroundColor =  UIColor(red: 0.0, green: 0.478, blue: 1.0, alpha: 1).CGColor;
         

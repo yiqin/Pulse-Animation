@@ -24,6 +24,9 @@ class YQViewController: UIViewController {
         // place the pulsing layer in the center the object view
         pulsingLayer.position = objectView.center
         
+        // define how many the repeat count is
+        pulsingLayer.repeatCount = 5;
+        
         // add the pulsing layer to the view
         view.layer.insertSublayer(pulsingLayer, below: objectView.layer)
     }
