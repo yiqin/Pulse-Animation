@@ -11,7 +11,7 @@ import UIKit
 class YQViewController: UIViewController {
     
     // var pulsingLayer = YQPulsingLayer()
-    @IBOutlet var objectView : UIImageView = nil
+    @IBOutlet var objectView : UIImageView! = nil
                             
     override func viewDidLoad() {
         super.viewDidLoad()

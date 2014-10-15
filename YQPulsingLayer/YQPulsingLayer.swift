@@ -19,7 +19,7 @@ class YQPulsingLayer: CALayer {
     var pulseInterval: NSTimeInterval
     var animationGroup: CAAnimationGroup
     
-    init() {
+    override init() {
         // before super.init()
         self.radius = 60
         self.fromValueForRadius = 0.0
@@ -46,12 +46,16 @@ class YQPulsingLayer: CALayer {
             
             self.setupAnimationGroup()
             
-            if self.pulseInterval != Float.infinity {
-                dispatch_async(dispatch_get_main_queue(), {
-                    self.addAnimation(self.animationGroup, forKey: "pulse")
-                    })
-            }
+            
+            dispatch_async(dispatch_get_main_queue(), {
+                self.addAnimation(self.animationGroup, forKey: "pulse")
+                })
+            
         })
+    }
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     func setupAnimationGroup() {
